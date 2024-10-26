@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página web con HTML y CSS </title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <h1>Mi Página web es muy interesante</h1>
+            <nav>
+                <ul>
+                    <li><a href="#section1">Inicio</a></li>
+                    <li><a href="#section2">Portafolio</a></li>
+                    <li><a href="#section3">Acerca de</a></li>
+                    <li><a href="#section4">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="section1" class="hero">
+        <div class="container">
+            <h2>Bienvenido a mi página</h2>
+            <p>Explora y descubre lo que puedo ofrecerte.</p>
+        </div>
+    </section>
+
+    <section id="section2" class="portfolio">
+        <div>
+            <h2>Portafolio</h2>
+            <h2>Mi página web es muy interesante</h2>
+            <p>Grandes contenidos de aventura</p>
+
+            <h1>Contacto</h1>
+            
+            <!-- Formulario -->
+            <form action="correo.php" method="post">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+            
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" required>
+            
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+            
+                <button type="submit">Enviar</button>
+            </form>
+            <!-- Contenido del portafolio -->
+        
+        
+        </div>
+    
+    <section id="section3" class="about">
+        <div class="container">
+            <h2>Acerca de Mí</h2>
+            <ul>
+                <li><a href="https://web.facebook.com/claudiayazmin.albaacevedo/about_overview" target="_blank">Facebook</a></li>
+                <li><a href="https://twitter.com/tu-usuario" target="_blank">Twitter</a></li>
+                <li><a href="https://www.instagram.com/tu-usuario/" target="_blank">Instagram</a></li>
+                <li><a href="https://web.facebook.com/claudiayazmin.albaacevedo/about_overview" target="_blank"><img src="4.jpg" alt="Facebook"></a></li>
+                <!-- Agrega más enlaces según sea necesario -->
+            </ul>
+            <!-- Contenido acerca de ti -->
+        </div>
+    </section>
+
+    <section id="section4" class="contact"> 
+        <div>
+            <h2>Contacto</h2>
+        <video width="340" height="160" controls>
+            <source src="3.mp4" type="video/mp4">
+        </video>
+            <!-- Formulario de contacto o información de contacto -->
+        
+        </div>
+    </section> 
+
+    <footer>
+        <div>
+            <p>&copy; 2023 Mi Página web en HTML y CSS</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
